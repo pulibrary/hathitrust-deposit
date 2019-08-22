@@ -1,0 +1,58 @@
+# Data for the HathiTrust Ingest Administrative Coversheet.  Intended
+# to be used to generate submittable document
+
+depositing_institution: Princeton University Library
+digitizing_agent: Princeton University Library
+name_of_collection: Princeton University Miscellany
+content_contact:                # to be established
+metadata_contact:               # to be established
+
+# Namespace for this deposit.  May be up to 4 alphanumeric characters
+# (e.g., mdp, uiuo, uc1). See http://bit.ly/NPPd77 for description.
+deposit_namespace:              # pul[0-9]+ should this vary?
+
+# See http://bit.ly/1yXwy2s
+worldcat_registry_id: 1791
+
+# Information about syntax, formatting, and validation of local item
+# identifiers.
+local_identifier_info: our identifiers are UUIDs
+
+# See http://1.usa.gov/KJFuL0
+marc_organization_code: NjP
+
+institution_oclc_symbol: PUL
+
+ils_name_and_version:           # to be verified
+
+local_system_numbers:
+  # location, if not 001
+  location:
+  # e.g., 9 digits, with leading zeroes
+  syntax: variable length
+
+oclc_numbers:
+  # prefixes for (master) OCLC numbers
+  prefixes: ocn, ocm, (OCoLC), (OCLC)
+
+  # MARC location (including subfield) of (master) OCLC numbers, if
+  # not 035.
+  location:
+
+# Structure of local classification number in 09X field, if no
+# other classification number is provided.  Example: "090 fields
+# include locally assigned LC-type call numbers, entered according
+# to OCLC input standards."
+local_classification_number_structure: records contain at least partial LC call numbers in 050 field.
+
+marc_location:
+  # MARC location of local item identifiers or ARK identifiers, if not 955|b
+  local_identifiers:
+
+  # location of item enumeration and chronology, if not 955|v
+  enum_chron:
+
+    
+
+
+    
