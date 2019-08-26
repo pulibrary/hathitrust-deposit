@@ -23,7 +23,7 @@ marc_organization_code: NjP
 
 institution_oclc_symbol: PUL
 
-ils_name_and_version:           # to be verified
+ils_name_and_version: Ex Libris Voyager 10.1.0
 
 local_system_numbers:
   # location, if not 001
